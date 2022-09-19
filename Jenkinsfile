@@ -33,6 +33,7 @@ pipeline{
        stage ('Deploy') {
            steps {
                script{
+                   sh 'printenv'
                 //   def image_id = registry + ":$BUILD_NUMBER"
                  //  sh "sed -i 's|image_id|$image_id|g' deployment.yml"
                  //  sh "kubectl apply -f deployment.yml -f service.yml"
