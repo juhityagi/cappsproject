@@ -1,6 +1,6 @@
 pipeline{  
     environment {
-    registry = "juhityagi/spring-demo>>"
+    registry = "juhityagi/spring-demo"
     }
   agent any
   stages {
@@ -9,7 +9,7 @@ pipeline{
            steps {
                 
                    sh 'pwd'
-                   sh 'sudo docker build .'
+                   sh 'docker build .'
                       }
        }
        
