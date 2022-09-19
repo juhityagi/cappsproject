@@ -35,9 +35,9 @@ pipeline{
                script{
                 //   def image_id = registry + ":$BUILD_NUMBER"
                  //  sh "sed -i 's|image_id|$image_id|g' deployment.yml"
-                   sh "kubectl apply -f deployment.yml -f service.yml"
-                   sh "kubectl rollout status deployment hello-deployment"
-                   sh "kubectl get service hello-svc"
+                 //  sh "kubectl apply -f deployment.yml -f service.yml"
+                  // sh "kubectl rollout status deployment hello-deployment"
+                   // sh "kubectl get service hello-svc"
                 }
            }
        }
