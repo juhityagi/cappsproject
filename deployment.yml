@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: image_id
+        image: juhityagi/spring-demo:10
         resources:
           requests:
             cpu: 10m
