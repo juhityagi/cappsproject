@@ -1,6 +1,6 @@
 pipeline{  
     environment {
-    registry = "<<Your_Docker_Hub_Account/spring-demo>>"
+    registry = "juhityagi/spring-demo>>"
     }
   agent any
   stages {
