@@ -3,7 +3,7 @@ pipeline{
     registry = "juhityagi/spring-demo"
     }
      tools {
-        maven 'Maven 3.2.5'
+        maven 'maven 3.2.5'
     }
   agent any
   stages {
