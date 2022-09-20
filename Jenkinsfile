@@ -2,6 +2,9 @@ pipeline{
     environment {
     registry = "juhityagi/spring-demo"
     }
+     tools {
+        maven 'Maven 3.2.5'
+    }
   agent any
   stages {
         stage('Sonar') {
