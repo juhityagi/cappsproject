@@ -11,7 +11,8 @@ pipeline{
                 sh 'mvn clean verify sonar:sonar \
   	                -Dsonar.projectKey=maven \
   	                -Dsonar.host.url=http://34.168.229.153:9000 \
-  	                -Dsonar.login=sqp_605a946e78e6cb3d55387b122cdde549e0edfe1a'
+  	                -Dsonar.login=sqp_605a946e78e6cb3d55387b122cdde549e0edfe1a \
+                    -Dcheckstyle.skip'
                 }
           }    
         stage('Build') {
