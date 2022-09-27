@@ -9,9 +9,9 @@ pipeline{
           
            steps {
                 sh 'mvn clean verify sonar:sonar \
-                    -Dsonar.projectKey=maven \
-                    -Dsonar.host.url=http://34.83.140.219:9000 \
-                    -Dsonar.login=sqp_82459cd51654dd6e7a9de576636b1de8e6db780e \
+  -Dsonar.projectKey=maven \
+  -Dsonar.host.url=http://34.174.239.193:9000 \
+  -Dsonar.login=sqp_e4dbc3f58d798fe46e78e9ebc058075690209ff8 \
                     -Dcheckstyle.skip'
                 }
           }    
